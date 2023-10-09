@@ -1,0 +1,101 @@
+body{
+    background-color: #e5e5f7;
+opacity: 0.8;
+background-image:  linear-gradient(#ffbcd2 1.2000000000000002px, transparent 1.2000000000000002px), linear-gradient(to right, #ffbcd2 1.2000000000000002px, #e5e5f7 1.2000000000000002px);
+background-size: 24px 24px;
+}
+h1  {
+    background-color: pink;
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height:50px;line-height:50px;margin:0;padding-left:10px;
+}
+
+div{
+    text-align: center;
+}
+#R.jpg
+{
+ width: 10% ;
+}
+#bubu{
+    width: 7%;
+}
+#image{
+    width: 50% ;
+}
+
+.my_info
+{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    color: brown;
+}
+
+div a {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    ;
+}
+
+p{
+    background-color: #faebd7;
+    color: #fd89a4ed;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: large;
+	font-weight: bold;
+  
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 10% auto 20%;
+    grid-gap: 10px;
+}
+
+.grid-container > div{
+    border: 1px solid black;
+  text-align: center;
+    background-color:white;
+}
+#header{
+	grid-column: 1 / span 3;
+}
+#menu{
+    grid-column: 2 / span 1;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#main{
+	grid-column: 2 / span 1;
+    border: 5px solid #fec377;
+    background-color: #ffffff;
+}
+#right{
+	grid-column: 2 / span 1;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 5px solid #fec377;
+}
+
+.flex_container{
+    display: flex;
+    background-color: #ffbcd2;
+    flex-wrap: nowrap;
+    justify-content: space-around ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+   
+    }
+
+
